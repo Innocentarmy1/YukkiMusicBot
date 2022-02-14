@@ -29,7 +29,7 @@ from Yukki.Utilities.inline import paginate_modules
 try:
     from config import START_IMG_URL
 except:
-    START_IMG_URL = None
+    START_IMG_URL = "https://te.legra.ph/file/3ba969b180c0066a0c0f3.jpg",
 
 loop = asyncio.get_event_loop()
 console = Console()
